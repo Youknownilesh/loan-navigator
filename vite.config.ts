@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-}));
+
 
 export default {
   build: {
@@ -27,4 +27,8 @@ export default {
     historyApiFallback: true,
   },
 };
+
+  
+}));
+
 
