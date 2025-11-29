@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Building2, LayoutDashboard, FileText, MessageSquare, BarChart3, Settings, LogOut } from 'lucide-react';
+import { Building2, LayoutDashboard, FileText, MessageSquare, Package, BarChart3, Users, Image, Settings, LogOut } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/contexts/AuthContext';
 import { useToast } from '@/hooks/use-toast';
@@ -41,7 +41,7 @@ const AdminSidebar = () => {
       </div>
 
       {/* Navigation */}
-      <nav className="flex-1 p-4 space-y-1 overflow-auto">
+      <nav className="flex-1 p-4 space-y-1">
         {menuItems.map((item) => {
           const isActive = location.pathname === item.path;
           const Icon = item.icon;
@@ -64,7 +64,7 @@ const AdminSidebar = () => {
       </nav>
 
       {/* Logout Button */}
-      <div className="mt-auto p-4 border-t border-border">
+      <div className="p-4 border-t border-border">
         <Button
           onClick={handleLogout}
           variant="outline"
