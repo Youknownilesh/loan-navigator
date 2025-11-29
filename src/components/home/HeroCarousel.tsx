@@ -93,14 +93,26 @@ const HeroCarousel = () => {
           {slides.map((slide, index) => (
             <CarouselItem key={slide.id}>
               <div className="relative min-h-screen flex items-center py-20">
-                {/* Full-screen Background Image */}
-                <div className="absolute inset-0 overflow-hidden">
-                  <img
-                    src={slide.image}
-                    alt=""
-                    className={`w-full h-full object-cover opacity-20 ${slide.imageClass}`}
-                  />
-                </div>
+                {/* Background / Illustration */}
+                {slide.id === 1 ? (
+                  // Slide 1: old rotating coin style
+                  <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
+                    <img
+                      src={slide.image}
+                      alt=""
+                      className={`w-[600px] h-[600px] md:w-[900px] md:h-[900px] lg:w-[1000px] lg:h-[1000px] object-contain opacity-15 ${slide.imageClass}`}
+                    />
+                  </div>
+                ) : (
+                  // Other slides: full-screen background
+                  <div className="absolute inset-0 overflow-hidden">
+                    <img
+                      src={slide.image}
+                      alt=""
+                      className={`w-full h-full object-cover opacity-20 ${slide.imageClass}`}
+                    />
+                  </div>
+                )}
 
                 {/* Content */}
                 <div className="container mx-auto px-4 relative z-10">
