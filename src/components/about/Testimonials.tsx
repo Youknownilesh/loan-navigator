@@ -11,7 +11,7 @@ const testimonials = [
     role: "Small Business Owner",
     image: testimonial1,
     rating: 5,
-    review: "LoanConnect made getting a business loan incredibly easy. The process was transparent, and they found me the best rates from multiple banks. Highly recommended!",
+    review: "पैसाMoney made getting a business loan incredibly easy. The process was transparent, and they found me the best rates from multiple banks. Highly recommended!",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const testimonials = [
     role: "Homeowner",
     image: testimonial2,
     rating: 5,
-    review: "I was able to secure my dream home loan with excellent terms. The team guided me through every step and answered all my questions promptly. Thank you, LoanConnect!",
+    review: "I was able to secure my dream home loan with excellent terms. The team guided me through every step and answered all my questions promptly. Thank you, पैसाMoney!",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const testimonials = [
     role: "Engineering Student",
     image: testimonial3,
     rating: 5,
-    review: "Getting an education loan was stress-free with LoanConnect. They understood my needs and connected me with banks offering student-friendly terms. Truly grateful!",
+    review: "Getting an education loan was stress-free with पैसाMoney. They understood my needs and connected me with banks offering student-friendly terms. Truly grateful!",
   },
 ];
 
