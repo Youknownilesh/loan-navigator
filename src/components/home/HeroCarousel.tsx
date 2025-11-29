@@ -77,7 +77,7 @@ const HeroCarousel = () => {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br 
 from-[#0A1A44] via-[#0F2C76] to-[#1A47B8] min-h-screen flex items-center">
->
+
       <div className="absolute inset-0 bg-black/20 backdrop-blur-[1px] z-0"></div>
 
       <Carousel
