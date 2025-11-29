@@ -9,14 +9,17 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="p-2 bg-primary rounded-lg">
-                <Building2 className="w-5 h-5 text-primary-foreground" />
-              </div>
-              <span className="text-xl font-bold text-foreground">LoanConnect</span>
-            </div>
-            <p className="text-muted-foreground text-sm mb-4">
-              Your trusted partner in connecting you with the best loan options from our network of partner banks.
-            </p>
+  <div className="p-2 bg-primary rounded-lg">
+    <Building2 className="w-5 h-5 text-primary-foreground" />
+  </div>
+  <span className="text-xl font-extrabold text-foreground">
+    पैसा<span className="text-primary font-semibold">Money</span>
+  </span>
+</div>
+<p className="text-muted-foreground text-sm mb-4">
+  आपका भरोसेमंद साथी, जो आपको देश के बेहतरीन बैंकों से सही लोन विकल्प से जोड़ता है।
+</p>
+
             <div className="flex gap-3">
               <a href="#" className="p-2 bg-muted rounded-lg hover:bg-primary hover:text-primary-foreground transition-smooth">
                 <Facebook className="w-4 h-4" />
