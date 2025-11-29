@@ -22,11 +22,15 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="p-2 bg-primary rounded-lg transition-smooth group-hover:scale-105">
-              <Building2 className="w-5 h-5 text-primary-foreground" />
-            </div>
-            <span className="text-xl font-bold text-foreground">LoanConnect</span>
-          </Link>
+  <div className="p-2 bg-primary rounded-lg transition-smooth group-hover:scale-105">
+    <Building2 className="w-5 h-5 text-primary-foreground" />
+  </div>
+
+  <span className="text-xl font-extrabold text-foreground">
+    पैसा<span className="text-primary font-semibold">Money</span>
+  </span>
+</Link>
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">
