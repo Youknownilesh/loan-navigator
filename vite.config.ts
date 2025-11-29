@@ -17,18 +17,6 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-
-
-export default {
-  build: {
-    outDir: "dist",
-  },
-  server: {
-    historyApiFallback: true,
-  },
-};
-
-  
 }));
 
 
