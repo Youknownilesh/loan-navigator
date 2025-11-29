@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // Use base "/" in development, "/loan-navigator-hub/" only in production
-  base: mode === "production" ? "/loan-navigator-hub/" : "/",
+  base: '/',
   server: {
     host: "::",
     port: 8080,
