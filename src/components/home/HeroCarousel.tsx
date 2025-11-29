@@ -19,7 +19,7 @@ const slides = [
     icon: Coins,
     badge: "Quick & Easy Process",
     title: "Get Instant Personal Loans",
-    subtitle: "From ₹50,000 to ₹25 Lakhs at competitive interest rates starting from 10.5% per annum",
+    subtitle: "From ₹50,000 to ₹25 Lakhs at lowest interest rates",
     cta: "Apply Now",
     ctaLink: "/loans",
     image: heroRupeeCoin,
