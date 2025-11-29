@@ -63,8 +63,8 @@ const AdminSidebar = () => {
         })}
       </nav>
 
-      {/* Logout Button */}
-      <div className="p-4 border-t border-border">
+      {/* Logout Button at the bottom */}
+      <div className="mt-auto p-4 border-t border-border">
         <Button
           onClick={handleLogout}
           variant="outline"
