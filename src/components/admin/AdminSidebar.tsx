@@ -41,7 +41,7 @@ const AdminSidebar = () => {
       </div>
 
       {/* Navigation */}
-      <nav className="flex-1 p-4 space-y-1">
+      <nav className="flex-1 p-4 space-y-1 overflow-auto">
         {menuItems.map((item) => {
           const isActive = location.pathname === item.path;
           const Icon = item.icon;
@@ -63,7 +63,7 @@ const AdminSidebar = () => {
         })}
       </nav>
 
-      {/* Logout Button at the bottom */}
+      {/* Logout Button */}
       <div className="mt-auto p-4 border-t border-border">
         <Button
           onClick={handleLogout}
