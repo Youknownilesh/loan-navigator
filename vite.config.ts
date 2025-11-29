@@ -18,3 +18,13 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
+export default {
+  build: {
+    outDir: "dist",
+  },
+  server: {
+    historyApiFallback: true,
+  },
+};
+
