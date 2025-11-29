@@ -4,7 +4,11 @@ import { ArrowRight, Calculator, TrendingUp } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-primary via-primary-light to-secondary py-20 md:py-32">
+    <section
+  className="relative overflow-hidden bg-gradient-to-br from-primary via-primary-light to-secondary
+             min-h-[80vh] md:min-h-screen flex items-center py-20 md:py-32"
+>
+
       {/* Animated Background Elements */}
       <div className="absolute inset-0 opacity-10">
         {/* Floating Houses */}
