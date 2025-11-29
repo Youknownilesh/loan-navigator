@@ -103,7 +103,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} LoanConnect. All rights reserved. | 
+            © {new Date().getFullYear()} पैसाMoney. All rights reserved. | 
             <Link to="/contact" className="hover:text-primary transition-smooth ml-1">Privacy Policy</Link> | 
             <Link to="/contact" className="hover:text-primary transition-smooth ml-1">Terms of Service</Link>
           </p>
