@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Building2, LayoutDashboard, FileText, MessageSquare, Package, BarChart3, Users, Image, Settings, LogOut } from 'lucide-react';
+import { Building2, LayoutDashboard, FileText, MessageSquare, BarChart3, Settings, LogOut } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/contexts/AuthContext';
 import { useToast } from '@/hooks/use-toast';
